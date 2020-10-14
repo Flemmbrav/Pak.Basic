@@ -3,7 +3,8 @@
 ## Busses
 
 - "Bus": 50kph, 1920
-- "Regional Bus": 80kph, 1960
+- "Express_Bus": 80kph, 1960
+- "City_Bus": 50kph, 1990, two seperate parts "City_Bus_Rear"
 
 ## Cargo_Cars
 
