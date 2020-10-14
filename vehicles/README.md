@@ -18,9 +18,9 @@
 
 ## Coaches
 
-80kph "Train" 1860
-140kph "Express" 1940
-200kph "IC" 1980
+- "Train": 80kph, 1860
+- "Express": 140kph, 1940
+- "InterCity": 200kph, 1980
 
 ## Locos
 
@@ -28,7 +28,7 @@
 - "Steam_Express": 120kph, 1940
 - "Electric_Loco": 140kph, 1940
 - "Diesel_Loco": 140kph, 1980
-- "IC_Loco": 200kph, 1980
+- "InterCity_Loco": 200kph, 1980
 
 
 ## DMU
