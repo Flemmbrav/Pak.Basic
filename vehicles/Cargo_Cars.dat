@@ -1,6 +1,6 @@
 obj=vehicle
 name=Wood_Car
-waytype=narrowgauge_track
+waytype=track
 copyright=PappeTeeMaster
 intro_year=1860
 speed=60
@@ -26,7 +26,7 @@ freightimagetype[0]=lumber
 
 obj=vehicle
 name=Fast_Wood_Car
-waytype=narrowgauge_track
+waytype=track
 copyright=PappeTeeMaster
 intro_year=1970
 speed=100
@@ -47,6 +47,48 @@ freightimage[0][se]=./image/Fast_Wood_Car.0.2
 freightimage[0][sw]=./image/Fast_Wood_Car.0.3
 freightimage[0][w]=./image/Fast_Wood_Car.0.0
 freightimagetype[0]=lumber
+
+------
+
+obj=vehicle
+name=Bulk_Car
+waytype=track
+copyright=Flemmbrav
+intro_year=1860
+speed=60
+payload=50
+weight=11
+runningcost=400
+cost=4000000
+length=8
+loading_time=4000
+constraint[prev][0]=any
+freight=coal
+EmptyImage[s,w,se,sw]=./image/Bulk_Car.0.<$0>
+freightimagetype[0]=coal
+freightimagetype[1]=ore
+FreightImage[0-1][s,w,se,sw]=./image/Bulk_Car.<$0+1>.<$1>
+
+------
+
+obj=vehicle
+name=Fast_Bulk_Car
+waytype=track
+copyright=Flemmbrav
+intro_year=1970
+speed=100
+payload=50
+weight=11
+runningcost=400
+cost=4000000
+length=8
+loading_time=4000
+constraint[prev][0]=any
+freight=coal
+EmptyImage[s,w,se,sw]=./image/Fast_Bulk_Car.0.<$0>
+freightimagetype[0]=coal
+freightimagetype[1]=ore
+FreightImage[0-1][s,w,se,sw]=./image/Fast_Bulk_Car.<$0+1>.<$1>
 
 ------
 
