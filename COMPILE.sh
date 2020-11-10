@@ -142,14 +142,12 @@ compile '192' 'Landscape' 'pakset/landscape/ground/*.dat'
 compile '192' 'Landscape' 'pakset/landscape/ground_obj/*.dat'
 compile '192' 'Landscape' 'pakset/landscape/tree/*.dat'
 compile '48' 'Landscape' 'pakset/landscape/pedestrians/*.dat'
-compile '192' 'Buildings' 'pakset/buildings/**/*.dat'
-compile '192' 'Infrastructure' 'pakset/infrastructure/**/*.dat'
-compile '192' 'Vehicles' 'pakset/vehicles/**/*.dat'
-compile '192' 'Goods' 'pakset/buildings/factories/goods/*.dat'
-compile '32' 'User Interface' 'pakset/UI/32/*.dat'
-compile '64' 'User Interface' 'pakset/UI/64/*.dat'
-compile '128' 'User Interface' 'pakset/UI/128/*.dat'
-compile '192' 'User Interface' 'pakset/UI/192/*.dat'
+
+compile '192' 'Buildings' 'pakset/buildings/*.dat'
+compile '192' 'Infrastructure' 'pakset/infrastructure/*.dat'
+compile '192' 'Vehicles' 'pakset/vehicles/*.dat'
+compile '192' 'Industry' 'pakset/industry/*.dat'
+
 compile '384' 'Larger Objects' 'pakset/384/**/*.dat'
 
 # Finished successfully, get rid of old csv
