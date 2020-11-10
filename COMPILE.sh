@@ -138,15 +138,15 @@ if [ ! -f $csv ]; then
 fi
 echo '# This file allows the compile script to only recompile changed files' > "$csv.in"
 
-compile '192' 'Landscape' 'pakset/landscape/ground/*.dat'
-compile '192' 'Landscape' 'pakset/landscape/ground_obj/*.dat'
-compile '192' 'Landscape' 'pakset/landscape/tree/*.dat'
-compile '48' 'Landscape' 'pakset/landscape/pedestrians/*.dat'
+compile '192' 'Landscape' 'landscape/ground/*.dat'
+compile '192' 'Landscape' 'landscape/ground_obj/*.dat'
+compile '192' 'Landscape' 'landscape/tree/*.dat'
+compile '48' 'Landscape' 'landscape/pedestrians/*.dat'
 
-compile '192' 'Buildings' 'pakset/buildings/*.dat'
-compile '192' 'Infrastructure' 'pakset/infrastructure/*.dat'
-compile '192' 'Vehicles' 'pakset/vehicles/*.dat'
-compile '192' 'Industry' 'pakset/industry/*.dat'
+compile '192' 'Buildings' 'buildings/*.dat'
+compile '192' 'Infrastructure' 'infrastructure/*.dat'
+compile '192' 'Vehicles' 'vehicles/*.dat'
+compile '192' 'Industry' 'industry/*.dat'
 
 compile '384' 'Larger Objects' 'pakset/384/**/*.dat'
 
