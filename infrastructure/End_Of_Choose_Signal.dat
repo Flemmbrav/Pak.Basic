@@ -1,0 +1,9 @@
+obj=roadsign
+name=End_Of_Choose_Signal
+copyright=PappeTeeMaster & Flemmbrav
+waytype=track
+cost=750
+end_of_choose=1
+icon=> ./images/End_Of_Choose_Signal.0.4
+cursor=./images/End_Of_Choose_Signal.0.5
+Image[0-3]=./images/End_Of_Choose_Signal.0.<$0>

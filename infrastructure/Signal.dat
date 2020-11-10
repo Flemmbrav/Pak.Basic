@@ -1,0 +1,10 @@
+obj=roadsign
+name=Signal
+copyright=PappeTeeMaster
+waytype=track
+cost=750
+is_signal=1
+icon=> ./images/Signal.1.10
+cursor=./images/Signal.0.10
+Image[0-7]=./images/Signal.1.<$0>
+Image[8-15]=./images/Signall.0.<$0-8>

@@ -1,0 +1,11 @@
+obj=roadsign
+name=Choose_Signal
+copyright=PappeTeeMaster
+waytype=track
+cost=750
+is_signal=1
+free_route=1
+icon=> ./images/Choose_Signal.1.10
+cursor=./images/Choose_Signal.0.10
+Image[0-7]=./images/Choose_Signal.1.<$0>
+Image[8-15]=./images/Choose_Signal.0.<$0-8>
