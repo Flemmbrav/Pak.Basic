@@ -42,14 +42,14 @@ freight=Passagiere
 length=8
 power=150
 gear=100
-emptyimage[e]=./image/Express_Bus.1.2
-emptyimage[n]=./image/Express_Bus.1.3
-emptyimage[ne]=./image/Express_Bus.1.4
-emptyimage[nw]=./image/Express_Bus.1.6
-emptyimage[s]=./image/Express_Bus.1.0
-emptyimage[se]=./image/Express_Bus.1.7
-emptyimage[sw]=./image/Express_Bus.1.5
-emptyimage[w]=./image/Express_Bus.1.1
+emptyimage[e]=./image/Express_Bus.0.2
+emptyimage[n]=./image/Express_Bus.0.3
+emptyimage[ne]=./image/Express_Bus.0.4
+emptyimage[nw]=./image/Express_Bus.0.6
+emptyimage[s]=./image/Express_Bus.0.0
+emptyimage[se]=./image/Express_Bus.0.7
+emptyimage[sw]=./image/Express_Bus.0.5
+emptyimage[w]=./image/Express_Bus.0.1
 
 ------
 
