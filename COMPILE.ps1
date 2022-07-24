@@ -1,4 +1,8 @@
 #!/usr/bin/env powershell
+
+echo 'Compiler for Pak.Basic'
+echo '--------------------------------------------------------'
+
 function compile($paksize, $msg, $glob) {
     echo '--------------------------------------------------------'
     echo "Compiling $msg..."
