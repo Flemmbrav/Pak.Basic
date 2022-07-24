@@ -1,15 +1,25 @@
 # Pak.Basic
+Pakset for Simutrans
 
-## what's missing
-- Content lol
+## The idea
+Pak.Basic's purpose is to have a pakset, that is streamlined for people discovering Simutrans.
+Everything should be dumped down as much as possible to create an enviroment enabling new users to learn the basic game dynamics first, bevore starting to learn the more complicated game dynamics the other paksets bring.
+Thus, there will only be so few ways, buildings, factories etc. Vehicles all will have the very same length. High use of player colour. Simple named objects.
+
+## What's missing so far?
+- Defining Buildings
+- Working github action
+- Adjusting content from Pak192.Comic to fit this pakset
 - Pedestrians don't have a place to be
-- 
+- Translations
+- Scenario
+- Loading screen image
+- Proper documentation (this one is important! why is it at the very bottom of this list?)
+- And far more…
 
-
--------
-
-
-Pakset and theme for Simutrans
+## How can I contribute?
+Just do it!
+Either just start a pull request here on Github, or write me on the forums.
 
 ## Run the pakset
 
@@ -27,27 +37,17 @@ Pakset and theme for Simutrans
 	1. If you did install the addons as well, there should be a button to start the game with them as well.
 5. Happy playing.
 
-## Run the theme
-
-1. Get yourself the theme from [the release page.](https://github.com/Flemmbrav/Pak192.Comic/releases)
-2. Unzip the theme.
-3. Copy the unzipped theme in the theme folder inside of your Simutrans game folder.
-4. Start Simutrans the way you did before, open the settings, select `Display Settings` , `Select a theme for display` and `pak192.comic`
-5. Happy playing.
-
 ## Manual compile
 
-1. Clone this repository using `git clone https://github.com/Flemmbrav/Pak192.Comic.git`
-2. Switch to Pak192.Comic directory
+1. Clone this repository using `git clone https://github.com/Flemmbrav/Pak.Basic.git`
+2. Switch to Pak.Basic directory
 3. Get yourself a new makeobj and put it in this folder.
 3. Start compile with preconfigured compiler :
 	1. To compile under windows, run the **`COMPILE.ps1`** via PowerShell.
 	2. To compile under unix, run the **`COMPILE.sh`**.
-4.Copy the folder named **compiled** in your usual Simutrans game folder and rename it to **Pak192.Comic**.
-5. Start Simutrans the way you did before, and you'll see a menu asking you for a pakset to run. Select **Pak192.Comic** to run this pakset.
+4.Copy the folder named **compiled** in your usual Simutrans game folder and rename it to **Pak.Basic**.
+5. Start Simutrans the way you did before, and you'll see a menu asking you for a pakset to run. Select **Pak.Basic** to run this pakset.
 6. Happy playing.
-
-The same progress has to be done to compile the addons or the theme as well. Just use the **`COMPILE_ADDONS.sh`** or the **`COMPILE_THEME.sh`** instead.
 
 ## Bug reports
 
@@ -55,4 +55,4 @@ Feel free to create a issue to this repository when you encountered any technica
 
 ## License
 
-The content provided in this Git is published under CC-BY-SA 3.0, which is available in the `LICENSE.md`. If you want to credit the Git as a whole, or in case you can not identify the author, and only then, you may credit "pak192.comic team" as author.
+The content provided in this Git is published under CC-BY-SA 3.0, which is available in the `LICENSE.md`. If you want to credit the Git as a whole, or in case you can not identify the author, and only then, you may credit "pak.basic and pak192.comic teams" as author.
