@@ -43,9 +43,9 @@ if (!(Test-Path compiled)) {
 }
 
 
-compile '192' 'Buildings' 'buildings/192/*.dat'
-compile '192' 'Industry' 'industry/192/*.dat'
-compile '192' 'Infrastructure' 'infrastructure/192/*.dat'
+compile '192' 'Buildings' 'buildings/*.dat'
+compile '192' 'Industry' 'industry/*.dat'
+compile '192' 'Infrastructure' 'infrastructure/*.dat'
 
 compile '192' 'Landscape' 'landscape/ground/*.dat'
 compile '192' 'Landscape' 'landscape/ground_objects/*.dat'
