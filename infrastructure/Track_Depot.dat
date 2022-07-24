@@ -1,0 +1,11 @@
+obj=building
+name=Track_Depot
+copyright=Leartin
+type=depot
+waytype=track
+intro_year=1835
+icon=> ./images/Track_Depot.0.4
+cursor=./images/Track_Depot.1.4
+Dims=1,1,4
+BackImage[0-3][0][0][0][0][0-1]=./images/Track_Depot.<$1*2>.<$0>
+FrontImage[0-3][0][0][0][0][0-1]=./images/Track_Depot.<$1*2+1>.<$0>

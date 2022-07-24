@@ -1,5 +1,9 @@
 # Goods
 
+- none
+- Passagiere
+- Post
+
 ## Bulk
 
 - "Coal"
@@ -15,7 +19,7 @@
 - "Food"
 - "Toys"
 
-# Industry Buildings
+# Factories
 
 - "Mine" 2x2
 - "Powerplant" 4x4

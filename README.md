@@ -1,4 +1,13 @@
-# Pak192.Comic
+# Pak.Basic
+
+## what's missing
+- Content lol
+- Pedestrians don't have a place to be
+- 
+
+
+-------
+
 
 Pakset and theme for Simutrans
 

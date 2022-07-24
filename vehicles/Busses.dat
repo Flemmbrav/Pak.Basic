@@ -23,6 +23,8 @@ emptyimage[s]=./image/Bus.0.0
 emptyimage[se]=./image/Bus.0.7
 emptyimage[sw]=./image/Bus.0.5
 emptyimage[w]=./image/Bus.0.1
+constraint[prev][0]=none
+constraint[next][0]=none
 
 ------
 
@@ -50,7 +52,8 @@ emptyimage[s]=./image/Express_Bus.0.0
 emptyimage[se]=./image/Express_Bus.0.7
 emptyimage[sw]=./image/Express_Bus.0.5
 emptyimage[w]=./image/Express_Bus.0.1
-
+constraint[prev][0]=none
+constraint[next][0]=none
 ------
 
 obj=vehicle
