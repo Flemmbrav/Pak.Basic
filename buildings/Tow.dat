@@ -1,0 +1,14 @@
+obj=building
+name=Tow
+copyright=Leartin
+type=tow
+chance=75
+level=10
+build_time=0
+intro_year=1835
+Intro_month=1
+needs_ground=1
+climates=desert, temperate, mediterran, tundra, rocky
+dims=2,2,4
+BackImage[0-3][0-1][0-1][0][0][0-4]=./images/tow_east.<$1>.<$2+$0*2+$3*8>
+-----
