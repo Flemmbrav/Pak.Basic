@@ -40,8 +40,8 @@
 ## EMU
 
 with front - middle - back each
-- "Cummuter_Train": 120kph, 1980
-- "High_Speed_Train": 250kph, 2010
+- "Suburban": 120kph, 1980
+- "HSR": 250kph, 2010
 
 ## Trucks
 
@@ -49,7 +49,7 @@ with front - middle - back each
 - "Wood": 50kph, 1930
 - "Old_Truck": 50kph, 1920, Piece Goods
 - "Truck": 70kph, 1960, Piece Goods
-- "Postal_Car": 40kph, 1900
+- "Postal_Car": 40kph, 1920
 - "Postal_Van": 70kph, 1950
 
 

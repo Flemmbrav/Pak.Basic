@@ -6,11 +6,14 @@ Pak.Basic's purpose is to have a pakset, that is streamlined for people discover
 Everything should be dumped down as much as possible to create an enviroment enabling new users to learn the basic game dynamics first, bevore starting to learn the more complicated game dynamics the other paksets bring.
 Thus, there will only be so few ways, buildings, factories etc. Vehicles all will have the very same length. High use of player colour. Simple named objects.
 
+Base for this new Pakset will be the graphics from [Pak192.Comic](https://github.com/Flemmbrav/Pak192.Comic).
+
 ## What's missing so far?
 - Defining Buildings
 - Working github action
 - Adjusting content from Pak192.Comic to fit this pakset
 - Pedestrians don't have a place to be
+- New UI
 - Translations
 - Scenario
 - Loading screen image

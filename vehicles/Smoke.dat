@@ -1,0 +1,3 @@
+obj=smoke
+name=diesel
+image[0-19]=./image/Smoke_Diesel.<$0/4>.<$0%4+$0%4>
