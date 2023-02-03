@@ -26,13 +26,14 @@ jobs:
         cat config.default >>/dev/stderr
     - name: make makeobj
       run: |
-          cd simutrans/trunk/makeobj
+          cd simutrans/trunk/src/makeobj
           make
-          mv makeobj ../../..
+          mv makeobj ../../../..
           cd ../../..
           rm -rf simutrans
 
-    - name: make pak192
+
+    - name: compile the pakset
       run: |
         bash COMPILE.sh
     - name: Rename result
