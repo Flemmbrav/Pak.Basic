@@ -77,7 +77,7 @@ beginner_price_factor = 2100
 station_coverage = 2
 
 # things to overcrowded destinations won't load if active (default off)
-avoid_overcrowding = 1
+avoid_overcrowding = 0
 
 # if enabled (default = 0 off) stops may have different capacities for passengers, mail, and freight
 seperate_halt_capacities = 1
@@ -85,7 +85,7 @@ seperate_halt_capacities = 1
 # three modes (default = 0)
 # 1: the payment is only relative to the distance to next interchange, 2 to the trips destination
 # (default 0 is distance since last stop)
-pay_for_total_distance = 2
+pay_for_total_distance = 0
 
 # Convoy lengths that exceed the standards
 max_rail_convoi_length = 64
@@ -111,7 +111,7 @@ crossconnect_factories_percentage = 33
 just_in_time = 1
 
 # use beginner mode for new maps (can be switched anyway on the new map dialog)
-first_beginner = 0
+first_beginner = 1
 
 # Factory spacing (default = 6)
 factory_spacing = 10
@@ -170,7 +170,7 @@ way_max_bridge_len = 4095
 #
 # other recommended vaule for 192comic is 1975
 #
-starting_year = 1930
+starting_year = 2022
 
 # Starting month of the game for people who want to start in summer (default 1=January)
 starting_month = 4
