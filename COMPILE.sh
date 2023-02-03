@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 echo 'Compiler for Pak.Basic'
 echo '------------------------------------------------------'
 
