@@ -53,7 +53,7 @@ compile '192' 'Landscape' 'landscape/tree/*.dat'
 compile '48' 'Landscape' 'landscape/pedestrians/*.dat'
 
 echo -e 'Moving Trunk (configs, sound, text)\n\n'
-cp -r pakset/trunk/* compiled
+cp -r trunk/* compiled
 
 compile '32' 'User Interface' 'UI/32/*.dat'
 compile '64' 'User Interface' 'UI/64/*.dat'
