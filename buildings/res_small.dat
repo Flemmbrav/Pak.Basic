@@ -1,5 +1,17 @@
 obj=building
 name=res_small_1
+copyright=PTM, Leartin
+intro_year=1800
+type=res
+Chance=20
+level=3
+build_time=0
+needs_ground=1
+#climates=desert, temperate, mediterran, tundra, rocky
+BackImage[0][0][0][0][0][0-4]=images/res_small_1.0.<$0>
+---
+obj=building
+name=res_small_2
 copyright=PappeTeeMaster
 intro_year=1800
 type=res
@@ -7,6 +19,18 @@ Chance=20
 level=3
 build_time=0
 needs_ground=1
-climates=desert, temperate, mediterran, tundra, rocky
-BackImage[0][0][0][0][0][0-4]=images/res_small_1.<$0>.0
+#climates=desert, temperate, mediterran, tundra, rocky
+BackImage[0][0][0][0][0][0-4]=images/res_small_2.0.<$0>
+---
+obj=building
+name=res_small_3
+copyright=PappeTeeMaster
+intro_year=1800
+type=res
+Chance=20
+level=3
+build_time=0
+needs_ground=1
+#climates=desert, temperate, mediterran, tundra, rocky
+BackImage[0][0][0][0][0][0-4]=images/res_small_3.0.<$0>
 ---
